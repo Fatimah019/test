@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  --active-bg-color: #1a1a94;
+  --active-text-color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.952rem;
+}
+
+body,
+html {
+  background-color: rgb(236, 236, 236);
+}
+
+a {
+  color: var(--active-text-color);
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.app_body {
+  margin-top: 70px;
+}
