@@ -29,7 +29,9 @@ const TopDashboard = () => {
 
 const SecondLayer = () => {
   return (
-    <div>
+    <>
+      <IoIosInformationCircleOutline />
+
       <div className="second_layer_top">
         <div className="second_layer_top_l">
           <button>Import</button>
@@ -69,7 +71,7 @@ const SecondLayer = () => {
           <input type="text" placeholder="Total Cargo Value" />
         </label>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -90,7 +92,7 @@ const ThirdLayer = () => {
     }
   };
   return (
-    <div>
+    <>
       <label className="details_option">
         <Link to="/" style={getActive("/")} className="details_links">
           Total Dimensions
@@ -116,7 +118,7 @@ const ThirdLayer = () => {
           <p>Kg</p>
         </label>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -155,7 +157,6 @@ const Dashboard = () => {
       <Card
         card_header={
           <div>
-            <IoIosInformationCircleOutline />
             <div className="card_header">
               <p>Cargo Details</p>{" "}
               <div className="card_header_right">
