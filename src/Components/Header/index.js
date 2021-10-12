@@ -28,15 +28,17 @@ const Header = () => {
           <FaSearch />
         </label>
       </div>
-      <div className="header_right_desktop">
-        <a href="/" className="quote_link">
-          Request Quote
-        </a>
-        <a href="/" className="shipment_link">
-          Book Shipment
-        </a>
+      <div style={style} className="header_right_desktop">
+        <div>
+          <a href="/" className="quote_link">
+            Request Quote
+          </a>
+          <a href="/" className="shipment_link">
+            Book Shipment
+          </a>
+        </div>
       </div>
-      <div className="header_right_mobile" style={style}>
+      <div className="header_right_mobile">
         {showopenicon ? (
           <FaBars onClick={handleNavBar} style={{ fontSize: "2rem" }} />
         ) : (
