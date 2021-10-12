@@ -91,6 +91,7 @@ header {
   }
   .header_right_desktop > div > a {
     margin-top: 15px;
+    width: 100%;
   }
 
   .header_right_mobile {
