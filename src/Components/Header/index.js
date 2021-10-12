@@ -21,8 +21,10 @@ const Header = () => {
   return (
     <header>
       <div className="header_left">
-        <h2 style={{ fontSize: "1.1rem" }}>send</h2>
-        <span style={{ fontSize: "0.7rem" }}>FREIGHT</span>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <h2 style={{ fontSize: "1.1rem" }}>send</h2>
+          <span style={{ fontSize: "0.7rem" }}>FREIGHT</span>
+        </div>
         <label className="header_left_search">
           <input type="text" placeholder="Search" />
           <FaSearch />

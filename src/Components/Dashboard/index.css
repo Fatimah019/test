@@ -6,17 +6,16 @@
 /* top dashboard */
 .top_dashboard {
   display: flex;
-  justify-content: space-between;
 }
 
 .top_dashboard_left {
   display: flex;
   justify-content: center;
-  width: 11%;
+  flex: 0.1;
 }
 
 .top_dashboard_right {
-  width: 89%;
+  flex: 0.9;
 }
 
 .top_dashboard_right > p:nth-child(1) {
@@ -28,7 +27,7 @@
 .top_dashboard_right p:nth-child(2) {
   font-size: 0.85rem;
   margin-bottom: 1.5rem;
-  color: gray;
+  color: #81868c;
 }
 
 /* second layer */
@@ -138,8 +137,8 @@ select {
 .details_links {
   flex-grow: inherit;
   padding: 12px 25px;
-  border-radius: 2px;
-  border: 1px solid #f0ecec;
+  border-radius: px;
+  border: 1px solid #f5f6f9;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -183,7 +182,7 @@ select {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: rgba(3, 3, 3, 0.8);
+  color: #343a40;
   font-weight: 600;
   width: calc(100% - 50%);
   background-color: #fff;
@@ -192,7 +191,7 @@ select {
 }
 
 .options_field > p {
-  color: gray;
+  color: #d0d5d9;
 }
 
 /* last layer */
@@ -214,7 +213,7 @@ select {
 
 .dashboard_last__layer_container_inner
   .dashboard_last__layer_container_inner_sm_p {
-  color: gray;
+  color: #81868c;
   font-size: 0.75rem;
   margin-top: 5px;
 }

@@ -26,7 +26,6 @@ const TopDashboard = () => {
     </div>
   );
 };
-
 const SecondLayer = () => {
   return (
     <>
@@ -60,10 +59,11 @@ const SecondLayer = () => {
           />
         </label>
         <label>
-          <select type="text" placeholder="Incoterms">
-            <option disabled hidden selected>
+          <select disabled>
+            <option selected hidden>
               Incoterms
             </option>
+            <option>To City or port</option>
             <option>To City or port</option>
           </select>
         </label>
@@ -82,12 +82,12 @@ const ThirdLayer = () => {
     if (location.pathname === currentLocation) {
       return {
         backgroundColor: "#FFF",
-        color: "#0c0c7a",
+        color: "#0747a6",
       };
     } else {
       return {
         backgroundColor: "transparent",
-        color: "rgb(192, 189, 189)",
+        color: "#d0d5d9",
       };
     }
   };

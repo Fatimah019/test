@@ -20,9 +20,12 @@ const InnerCard = ({ data }) => {
             style={{
               backgroundColor:
                 index === selected ? "var(--active-bg-color)" : "",
-              color: index === selected ? "var(--active-text-color)" : "gray",
+              color:
+                index === selected ? "var(--active-text-color)" : "#81868c",
               border:
-                index === selected ? "1px solid var(--active-bg-color)" : "",
+                index === selected
+                  ? "1px solid var(--active-bg-color)"
+                  : "1px solid #d0d5d9",
             }}
           >
             <p className="card_title">{list.title}</p>

@@ -40,8 +40,9 @@ header {
   margin-right: 10px;
 }
 .header_left_search ::placeholder {
-  color: rgba(245, 246, 249, 0.8);
+  color: #d0d5d9;
 }
+
 .header_right_desktop {
   flex: 1;
 }
@@ -59,8 +60,8 @@ header {
 }
 
 .header_right_desktop > div > a {
-  background-color: rgb(35, 189, 35);
-  border: 1px solid rgb(35, 189, 35);
+  background-color: rgb(21, 248, 21);
+  border: 1px solid rgb(21, 248, 21);
   white-space: nowrap;
 }
 

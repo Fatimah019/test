@@ -38,6 +38,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgb(179, 178, 178);
 }
 
+::placeholder,
+select:disabled {
+  color: #d0d5d9;
+}
+
 /* input[type="date"]::-webkit-inner-spin-button,
 
 input[type="date"]:before {
