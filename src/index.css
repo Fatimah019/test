@@ -4,13 +4,13 @@
   font-family: "Mulish", sans-serif;
   font-size: 1rem;
   box-sizing: border-box;
-  --active-bg-color: #15317e;
+  --active-bg-color: #0747a6;
   --active-text-color: #fff;
 }
 
 body,
 html {
-  background-color: rgb(236, 236, 236);
+  background-color: #f5f6f9;
 }
 
 a {
@@ -25,3 +25,31 @@ a {
 .app_body {
   margin-top: 70px;
 }
+
+/* global date input */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.calendar_input::before {
+  width: 100%;
+  content: attr(placeholder);
+}
+
+/* input[type="date"]::-webkit-inner-spin-button,
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:before,
+input[type="date"]::before {
+  content: "";
+}
+
+.calendar_input:hover::before {
+  width: 0%;
+  content: "";
+} */

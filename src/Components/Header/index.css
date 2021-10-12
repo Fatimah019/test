@@ -1,5 +1,5 @@
 header {
-  background-color: #0340b9;
+  background-color: rgb(17, 87, 190);
   color: #fff;
   padding: 10px 15px;
   display: flex;
@@ -23,7 +23,7 @@ header {
 .header_left_search {
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 5px 20px;
   flex-grow: 1;
   justify-content: space-between;
@@ -37,6 +37,7 @@ header {
   background-color: transparent;
   outline: none;
   border: none;
+  margin-right: 10px;
 }
 ::placeholder {
   color: #cac7c7;
@@ -81,11 +82,12 @@ header {
   }
   .header_right_desktop > div {
     display: flex;
-    background-color: #0340b9;
+    background-color: rgb(17, 87, 190);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 15px;
+    transition-timing-function: ease;
   }
   .header_right_desktop > div > a {
     margin-top: 15px;

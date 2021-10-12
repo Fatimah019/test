@@ -3,23 +3,15 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   row-gap: 1rem;
   column-gap: 1.5rem;
-  position: relative;
-  object-fit: cover;
 }
 
 .inner_card {
-  padding: 0px 0px 0px 0px;
   border: 2px solid #f0ecec;
   display: flex;
   justify-content: space-between;
   height: 5rem;
   position: relative;
   background-color: #fff;
-  object-fit: cover;
-}
-
-.active_inner_card {
-  background-color: blue;
 }
 
 .inner_card > p {
@@ -38,7 +30,7 @@
   overflow: hidden;
 }
 .card_icon_inner {
-  margin-top: 94%;
+  margin-top: 85%;
   margin-left: 20%;
   overflow: hidden;
 }

@@ -17,9 +17,9 @@ const ButtonSwitch = () => {
       checked={checked}
       checkedIcon={false}
       uncheckedIcon={false}
-      onHandleColor="#fff"
-      onColor="#15317E"
-      offColor="#f0ecec"
+      onHandleColor="#f5f6f9"
+      onColor="#0747a6"
+      offColor="#f5f6f9"
       width={42}
       height={25}
     />

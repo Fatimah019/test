@@ -10,18 +10,32 @@ import {
   ImLocation,
   AiFillCalendar,
   IoIosInformationCircleOutline,
+  BsArrowLeftShort,
 } from "react-icons/all";
-import TopDashboard from "./topDashboard";
+
+const TopDashboard = () => {
+  return (
+    <div className="top_dashboard">
+      <div className="top_dashboard_left">
+        <BsArrowLeftShort style={{ fontSize: "2rem", paddingRight: "0px" }} />
+      </div>
+      <div className="top_dashboard_right">
+        <p>New Booking</p>
+        <p>File in the information below to get a quote or a new booking</p>
+      </div>
+    </div>
+  );
+};
 
 const SecondLayer = () => {
   return (
     <div>
-      <div className="third_layer_top">
-        <div className="third_layer_top_l">
+      <div className="second_layer_top">
+        <div className="second_layer_top_l">
           <button>Import</button>
           <button>Export</button>
         </div>
-        <div className="third_layer_top_r">
+        <div className="second_layer_top_r">
           <label>
             <ImLocation />
             <input type="text" placeholder="From City or port" />
@@ -32,15 +46,15 @@ const SecondLayer = () => {
           </label>
         </div>
       </div>
-      <div className="third_layer_bottom">
+      <div className="second_layer_bottom">
         <label>
           <AiFillCalendar />
           <input
-            type="text"
-            onfocus="(this.type='date')"
-            onblur="(this.type='text')"
+            type="date"
+            onClick="$(this).removeClass('placeholderclass')"
             id="date"
             placeholder="Ready Date"
+            className="calendar_input"
           />
         </label>
         <label>
