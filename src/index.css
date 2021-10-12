@@ -35,27 +35,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .calendar_input::before {
   width: 100%;
   content: attr(placeholder);
-  color: rgb(179, 178, 178);
-}
-
-::placeholder,
-select:disabled {
   color: #d0d5d9;
 }
 
-/* input[type="date"]::-webkit-inner-spin-button,
-
-input[type="date"]:before {
-  content: attr(placeholder) !important;
-  color: #aaa;
-  margin-right: 0.5em;
-}
-input[type="date"]:before,
-input[type="date"]::before {
-  content: "";
+::placeholder {
+  color: #d0d5d9;
 }
 
-.calendar_input:hover::before {
-  width: 0%;
-  content: "";
-} */
+select:required:invalid {
+  color: #d0d5d9;
+}
+
+select option {
+  color: #000;
+}

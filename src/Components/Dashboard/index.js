@@ -59,8 +59,8 @@ const SecondLayer = () => {
           />
         </label>
         <label>
-          <select disabled>
-            <option selected hidden>
+          <select required>
+            <option value="" selected disabled>
               Incoterms
             </option>
             <option>To City or port</option>
