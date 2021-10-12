@@ -13,6 +13,7 @@
 .card_header_right {
   display: flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 .card_header_right > p {
@@ -60,6 +61,7 @@
   border: none;
   outline: none;
   padding-right: 10px;
+  width: 100%;
 }
 
 .options_field::after {
@@ -170,7 +172,7 @@ select {
 /* last layer */
 .dashboard_last_layer_container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
   row-gap: 2rem;
   column-gap: 0.8rem;
 }
@@ -207,7 +209,11 @@ select {
     margin-left: 0;
     margin-top: 2rem;
   }
+  .options_field {
+    width: 100%;
+  }
 }
+
 @media only screen and (max-width: 480px) {
   .details_option {
     display: flex;
