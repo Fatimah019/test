@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
   --active-bg-color: #15317e;
   --active-text-color: #fff;
-  font-family: "Mulish", sans-serif;
-  font-size: 0.952rem;
 }
 
 body,
