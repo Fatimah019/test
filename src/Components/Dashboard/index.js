@@ -126,7 +126,7 @@ const LastLayer = () => {
       {lastLayerData.map((data, index) => (
         <div className="dashboard_last__layer_container_inner" key={index}>
           <div className="btn_switch">
-            <ButtonSwitch />
+            <ButtonSwitch checkChecked={false} />
           </div>
           <div>
             <p className="dashboard_last__layer_container_inner_lg_p">
@@ -159,7 +159,7 @@ const Dashboard = () => {
             <div className="card_header">
               <p>Cargo Details</p>{" "}
               <div className="card_header_right">
-                <ButtonSwitch />
+                <ButtonSwitch checkChecked={true} />
                 <p>Dangerous Cargo (ex. Chemicals, Battery</p>
               </div>
             </div>

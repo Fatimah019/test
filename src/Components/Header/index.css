@@ -39,8 +39,8 @@ header {
   border: none;
   margin-right: 10px;
 }
-::placeholder {
-  color: #cac7c7;
+.header_left_search ::placeholder {
+  color: rgba(245, 246, 249, 0.8);
 }
 .header_right_desktop {
   flex: 1;
