@@ -49,17 +49,18 @@ const SecondLayer = () => {
       <div className="second_layer_bottom">
         <label>
           <AiFillCalendar />
+          {/* <input type="text" id="date" placeholder="Ready Date"></input> */}
           <input
             type="date"
-            onClick="$(this).removeClass('placeholderclass')"
+            // onClick="$(this).removeClass('placeholderclass')"
             id="date"
             placeholder="Ready Date"
             className="calendar_input"
           />
         </label>
         <label>
-          <select type="text" placeholder="To City or port">
-            <option value="" disabled selected hidden>
+          <select type="text" placeholder="Incoterms">
+            <option disabled hidden selected>
               Incoterms
             </option>
             <option>To City or port</option>
@@ -74,7 +75,6 @@ const SecondLayer = () => {
 };
 
 const ThirdLayer = () => {
-  console.log(useLocation().pathname);
   const location = useLocation();
 
   const getActive = (currentLocation) => {
@@ -104,14 +104,14 @@ const ThirdLayer = () => {
       <div className="detail_options_styled_input">
         <label className="options_field">
           <input type="text" id="total_vol" />
-          <label for="total_vol" className="placeholder">
+          <label htmlFor="total_vol" className="placeholder">
             Total Volume
           </label>
           <p>Cbm</p>
         </label>
         <label className="options_field">
           <input type="text" id="total_weight" />
-          <label for="total_weight" className="placeholder">
+          <label htmlFor="total_weight" className="placeholder">
             Total Weight
           </label>
           <p>Kg</p>
