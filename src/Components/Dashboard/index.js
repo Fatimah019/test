@@ -49,7 +49,6 @@ const SecondLayer = () => {
       <div className="second_layer_bottom">
         <label>
           <AiFillCalendar />
-          {/* <input type="text" id="date" placeholder="Ready Date"></input> */}
           <input
             type="date"
             // onClick="$(this).removeClass('placeholderclass')"

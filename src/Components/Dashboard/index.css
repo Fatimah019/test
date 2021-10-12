@@ -60,7 +60,7 @@
 .second_layer_top > .second_layer_top_r > label {
   flex: 1;
   flex-grow: 1;
-  background-color: #f0ecec;
+  background-color: #f5f6f9;
   padding: 7px 14px;
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@
 .second_layer_bottom > label {
   flex: 1;
   flex-grow: 1;
-  background-color: #f0ecec;
+  background-color: #f5f6f9;
   padding: 7px 14px;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@ select {
 }
 
 .details_option {
-  background-color: #f0ecec;
+  background-color: #f5f6f9;
   padding: 15px 1px;
   border-radius: 4px;
 }
@@ -154,7 +154,7 @@ select {
 .options_field {
   position: relative;
   padding: 10px 10px;
-  border: 1px solid gray;
+  border: 1px solid rgb(187, 186, 186);
   display: flex;
   justify-content: space-between;
   align-items: center;
