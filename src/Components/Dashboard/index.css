@@ -205,6 +205,10 @@ select {
     flex-direction: column;
     align-items: flex-start;
   }
+  .third_layer_top {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    row-gap: 1rem;
+  }
   .options_field:nth-child(2) {
     margin-left: 0;
     margin-top: 2rem;
