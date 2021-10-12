@@ -258,4 +258,8 @@ select {
   .options_field .placeholder {
     width: calc(100% - 50%);
   }
+  .second_layer_top > .second_layer_top_r,
+  .second_layer_bottom {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
 }

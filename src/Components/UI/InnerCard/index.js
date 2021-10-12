@@ -21,6 +21,8 @@ const InnerCard = ({ data }) => {
               backgroundColor:
                 index === selected ? "var(--active-bg-color)" : "",
               color: index === selected ? "var(--active-text-color)" : "gray",
+              border:
+                index === selected ? "1px solid var(--active-bg-color)" : "",
             }}
           >
             <p className="card_title">{list.title}</p>
